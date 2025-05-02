@@ -14,7 +14,7 @@ void UART_Init(void)
     GPIOA->AFR[1] |= (1 << (9 - 8) * 4) | (1 << (10 - 8) * 4); // AF1 для USART1
 
     // Настраиваем USART1
-    USART1->BRR = 8000000 / 9600; // Скорость 9600 бод
+    USART1->BRR = 48000000 / 9600; // Скорость 9600 бод
     USART1->CR1 = USART_CR1_TE | USART_CR1_RE | USART_CR1_UE; // Включаем передатчик, приемник и USART
 }
 

@@ -1,7 +1,7 @@
 Dependencies for Project 'main', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6160000::V6.16::ARMCLANG
-F (.\main.c)(0x680B6F69)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -w-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F072xB -D_RTE_-o ./objects/main.o -MD)
-I (main.h)(0x68087DF3)
+F (.\main.c)(0x6814C62D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -w-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F072xB -D_RTE_-o ./objects/main.o -MD)
+I (main.h)(0x6811E389)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x5D7F930A)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x5D7F930A)
 I (C:\Users\denna\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0.h)(0x60D41312)
@@ -13,9 +13,9 @@ I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60353200)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60353200)
 I (uart_init.h)(0x67D18F01)
-I (pwm_init.h)(0x67F7B186)
+I (pwm_init.h)(0x6811F2AC)
 F (.\uart_init.h)(0x67D18F01)()
-F (.\uart_init.c)(0x67F8D984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -w-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F072xB -D_RTE_-o ./objects/uart_init.o -MD)
+F (.\uart_init.c)(0x6811FDE6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -w-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F072xB -D_RTE_-o ./objects/uart_init.o -MD)
 I (uart_init.h)(0x67D18F01)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x5D7F930A)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x5D7F930A)
@@ -25,9 +25,9 @@ I (C:\Users\denna\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cms
 I (C:\Users\denna\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D41312)
 I (C:\Users\denna\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D41312)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x5D7F930A)
-F (.\main.h)(0x68087DF3)()
-F (.\pwm_init.c)(0x680B6FB4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -w-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F072xB -D_RTE_-o ./objects/pwm_init.o -MD)
-I (pwm_init.h)(0x67F7B186)
+F (.\main.h)(0x6811E389)()
+F (.\pwm_init.c)(0x6814C575)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -w-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F072xB -D_RTE_-o ./objects/pwm_init.o -MD)
+I (pwm_init.h)(0x6811F2AC)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x5D7F930A)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x5D7F930A)
 I (C:\Users\denna\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0.h)(0x60D41312)
@@ -36,8 +36,9 @@ I (C:\Users\denna\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cms
 I (C:\Users\denna\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D41312)
 I (C:\Users\denna\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D41312)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x5D7F930A)
-F (.\pwm_init.h)(0x67F7B186)()
+F (.\pwm_init.h)(0x6811F2AC)()
 F (.\handlers.c)(0x68087C2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -w-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F072xB -D_RTE_-o ./objects/handlers.o -MD)
+F (.\global_params.h)(0x6811E2E8)()
 F (RTE\Device\STM32F072RBTx\startup_stm32f072xb.s)(0x67D324BE)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F072xB SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f072xb.o)
 F (RTE\Device\STM32F072RBTx\system_stm32f0xx.c)(0x67D324BD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -w-I./RTE/_Target_1-IC:/Users/denna/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/denna/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F072xB -D_RTE_-o ./objects/system_stm32f0xx.o -MD)
 I (C:\Users\denna\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x5D7F930A)

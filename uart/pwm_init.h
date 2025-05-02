@@ -1,3 +1,5 @@
 #include <stm32f0xx.h>
-void PWM_Control(TIM_TypeDef* TIMx, uint8_t channel, uint8_t enable);
-void PWM_setup(void);
+
+void TIM3_PWM_Init(void);
+void TIM2_setup(int tpulse);
+
