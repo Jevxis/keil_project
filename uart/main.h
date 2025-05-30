@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include "uart_init.h"
 #include "pwm_init.h"
+#include "ADC_Holl.h"
+#include <stdio.h>
 #define BUFFER_SIZE 128
 #define BUFFER_SIZE_SPLIT 16
 #define LV 0

@@ -134,11 +134,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>-1</DriverSelection>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -414,14 +414,19 @@
               <FilePath>.\pwm_init.h</FilePath>
             </File>
             <File>
-              <FileName>handlers.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\handlers.c</FilePath>
-            </File>
-            <File>
               <FileName>global_params.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\global_params.h</FilePath>
+            </File>
+            <File>
+              <FileName>ADC_Holl.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ADC_Holl.c</FilePath>
+            </File>
+            <File>
+              <FileName>ADC_Holl.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ADC_Holl.h</FilePath>
             </File>
           </Files>
         </Group>
